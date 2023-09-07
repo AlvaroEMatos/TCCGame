@@ -1,2 +1,2 @@
-# TCCGame
+# TCC Game
 TCC UNIVESP 2023
