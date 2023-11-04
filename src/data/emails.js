@@ -16,6 +16,7 @@ export const trueEmails = [
         +"\n\nPor favor, me mantenha atualizado e não demore a me responder. Sua amizade significa muito para mim, e gostaria de reconectar e fortalecer nossa amizade mais uma vez."
         +"\n\n\nCom os melhores cumprimentos e lembranças afetuosas,"
         +"\n\nRafael.\n\n\n",
+        isResponsive: false,
         missDialogueArray: [
             createDialogData("Você errou!","Esse e-mail era legítimo. E-amils que possuem apenas texto não oferecem risco nenhum."),
         ],
@@ -29,6 +30,7 @@ export const trueEmails = [
         receiverEmail: "marcelobarbosaa@yahoo.com",
         date: "20 de out. de 2023",
         contentPath:'',
+        isResponsive: false,
         content:
         "Prezado Marcelo,"
         +"\n\nEspero que esta mensagem o encontre bem. Quero expressar meu profundo pesar pelo incidente que aconteceu recentemente no estacionamento. Infelizmente, acabei batendo no seu carro enquanto manobrava o meu veículo. Fiquei extremamente chateado(a) com o ocorrido e sinto muito pela inconveniência que isso possa ter lhe causado."
@@ -51,6 +53,7 @@ export const trueEmails = [
         receiverName: "Marcos Oliveira",
         receiverEmail: "marcosgm@gmail.com",
         date: "25 de out. de 2023",
+        isResponsive: true,
         contentPath: "./html/facebook.html",
         content:'',
         missDialogueArray: [
@@ -65,6 +68,7 @@ export const trueEmails = [
         receiverName: "Augusto Souza Martins",
         receiverEmail: "augustosouzamart@outlook.com",
         date: "03 de nov. de 2023",
+        isResponsive: false,
         contentPath: './html/bb.html',
         content: '',
         missDialogueArray: [
@@ -79,6 +83,7 @@ export const trueEmails = [
         receiverName: "Ana Beatriz Lima",
         receiverEmail: "anabeariz13@gmail.com",
         date: "04 de nov. de 2023",
+        isResponsive: false,
         contentPath: './html/reclameaqui.html',
         content: '',
         missDialogueArray: [
@@ -93,6 +98,7 @@ export const trueEmails = [
         receiverName: "Lívia Silva",
         receiverEmail: "liviasilva444@gmail.com",
         date: "01 de nov. de 2023",
+        isResponsive: true,
         contentPath: './html/nubank.html',
         content: '',
         missDialogueArray: [
@@ -107,6 +113,7 @@ export const trueEmails = [
         receiverName: "Yuri Nomura",
         receiverEmail: "yurinumu@live.com",
         date: "01 de nov. de 2023",
+        isResponsive: true,
         contentPath: './html/kwai.html',
         content: '',
         missDialogueArray: [
@@ -121,6 +128,7 @@ export const trueEmails = [
         receiverName: "Élcio Augusto Andrade",
         receiverEmail: "elcio000@hotmail.com",
         date: "01 de nov. de 2023",
+        isResponsive: false,
         contentPath: './html/imobiliaria.html',
         content: '',
         missDialogueArray: [
@@ -135,6 +143,7 @@ export const trueEmails = [
         receiverName: "Rosanna Mello",
         receiverEmail: "rosamel@gmail.com",
         date: "05 de nov. de 2023",
+        isResponsive: false,
         contentPath: './html/gov.html',
         content: '',
         missDialogueArray: [

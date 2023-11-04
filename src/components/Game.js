@@ -202,6 +202,7 @@ function GameComponent({className}){
                 receiverEmail={currentEmail.receiverEmail}
                 date={currentEmail.date}
                 contentPath={currentEmail.contentPath}
+                isResponsive={currentEmail.isResponsive}
                 children={currentEmail.content}
                 compRef={emailRef}/>}
             </Main>

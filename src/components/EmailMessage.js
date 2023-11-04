@@ -86,9 +86,9 @@ const Content = styled.div`
 
     white-space:pre-wrap;
     text-align: justify;
-    overflow-y: scroll;
+
+    overflow: scroll;
     iframe{
-        width: 100%;
         overflow: hidden;
         border: 0;
     }
@@ -113,7 +113,7 @@ const EmailMessage = styled(EmailMessageComponent)`
     }
 `
 
-function EmailMessageComponent({className, subject, senderName, senderEmail, receiverName, receiverEmail, date, secure = true, contentPath, children, compRef}) {
+function EmailMessageComponent({className, subject, senderName, senderEmail, receiverName, receiverEmail, date, secure = true, contentPath, children, isResponsive, compRef}) {
     const [moreOptions, setMoreOptionsVisibility] = useState(false);
     
     const preventClick = (e) => {
@@ -168,11 +168,13 @@ function EmailMessageComponent({className, subject, senderName, senderEmail, rec
             <Content>
                 {(children)? children :
                     <iframe
+                    style={(isResponsive)? {width: '100%'} : {}}
                     src={contentPath}
                     onLoad={(e) => {
                         const iframe = e.target;
                         iframe.contentWindow.document.body.addEventListener('click', preventClick)
                         iframe.height = iframe.contentWindow.document.body.scrollHeight;
+                        iframe.width = iframe.contentWindow.document.body.scrollWidth;
                     }}
                     scrolling="no"
                     />
