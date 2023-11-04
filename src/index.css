@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+#root{
+    width: 100vw;
+    height: 100vh;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+@keyframes grow1 {
+    0% {
+        transform: translateX(0) scale(0.8);
+    }
+    100% {
+        transform: translateX(0) scale(1);
+    }
+}
+@keyframes grow2 {
+    0% {
+        transform: translateX(0) scale(0.8);
+    }
+    100% {
+        transform: translateX(0) scale(1);
+    }
+}
+@keyframes scroll {
+    0% {
+        sc: 0%;
+    }
+    100% {
+        sc: 100%;
+    }
+}
