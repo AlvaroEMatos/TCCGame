@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tcc-game/static/css/main.fa205f92.css",
+    "main.js": "/tcc-game/static/js/main.39383243.js",
+    "static/media/sus.mp3": "/tcc-game/static/media/sus.c37f61523b0e1879378f.mp3",
+    "static/media/err.mp3": "/tcc-game/static/media/err.3cb5df0a064ed06f64dd.mp3",
+    "index.html": "/tcc-game/index.html",
+    "static/media/expand_less.svg": "/tcc-game/static/media/expand_less.db993b821b0aa4bca99715960538f054.svg",
+    "static/media/expand_more.svg": "/tcc-game/static/media/expand_more.161bafef6628166394eefbda4ba88a1d.svg",
+    "main.fa205f92.css.map": "/tcc-game/static/css/main.fa205f92.css.map",
+    "main.39383243.js.map": "/tcc-game/static/js/main.39383243.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa205f92.css",
+    "static/js/main.39383243.js"
+  ]
+}
