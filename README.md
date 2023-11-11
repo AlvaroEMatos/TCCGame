@@ -9,9 +9,9 @@
 - Waldir dos Santos
 
 ## Programação
--Álvaro Esteves Matos
+- Álvaro Esteves Matos
 
-## &nbsp
+##
 
 Este jogo faz parte de um Trabalho de Conclusão de Curso (TCC) da disciplina Engenharia de Computação da Universidade Virtual do Estado de São Paulo (UNIVESP) entregue no ano de 2023.
 
